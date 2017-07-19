@@ -1,0 +1,9 @@
+C:\Users\Prashant\documents\visual studio 2012\Projects\Debugging\Level2\obj\Debug\MainWindow.baml
+C:\Users\Prashant\documents\visual studio 2012\Projects\Debugging\Level2\obj\Debug\Questions2.baml
+C:\Users\Prashant\documents\visual studio 2012\Projects\Debugging\Level2\obj\Debug\MainWindow.g.cs
+C:\Users\Prashant\documents\visual studio 2012\Projects\Debugging\Level2\obj\Debug\Questions2.g.cs
+C:\Users\Prashant\documents\visual studio 2012\Projects\Debugging\Level2\obj\Debug\App.g.cs
+C:\Users\Prashant\documents\visual studio 2012\Projects\Debugging\Level2\obj\Debug\Level2_MarkupCompile.cache
+C:\Users\Prashant\documents\visual studio 2012\Projects\Debugging\Level2\obj\Debug\Level2.g.resources
+C:\Users\Prashant\documents\visual studio 2012\Projects\Debugging\Level2\obj\Debug\Level2.Properties.Resources.resources
+C:\Users\Prashant\documents\visual studio 2012\Projects\Debugging\Level2\obj\Debug\Level2.csproj.GenerateResource.Cache

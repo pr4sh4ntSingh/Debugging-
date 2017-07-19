@@ -1,0 +1,31 @@
+﻿<Window x:Class="Debugging.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Welcome" Height="768" Width="1366" WindowStyle="none" WindowState="Maximized" WindowStartupLocation="CenterScreen"
+        >
+    <Window.Background>
+        <ImageBrush ImageSource="19847.jpg" Stretch="Fill" Opacity="1"></ImageBrush>
+    </Window.Background>
+    <Grid >
+        <TextBox x:Name="Team" CaretBrush="White"  Focusable="True" FocusManager.IsFocusScope="True"  Cursor="IBeam" HorizontalAlignment="Left" Height="44" Margin="560,465,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="342" FontFamily="Global Monospace" FontSize="20" Foreground="#FFE2E4EE" FontWeight="Bold" KeyDown="tablename">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF685454" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <Canvas HorizontalAlignment="Left" Height="44" Margin="964,465,0,0" VerticalAlignment="Top" Width="70" MouseDown="Go" RenderTransformOrigin="0.462,0.856">
+            <Canvas.Background>
+                <ImageBrush ImageSource="start.png"/>
+            </Canvas.Background>
+        </Canvas>
+        <Label x:Name="Warning" Visibility="Hidden" Content="*Please enter your team name!!!" HorizontalAlignment="Left" Margin="477,507,0,0" VerticalAlignment="Top" Foreground="#FF2510F5" Width="178"/>
+        <Canvas HorizontalAlignment="Left" Height="81" Margin="1010,663,0,0" VerticalAlignment="Top" Width="155">
+            <Label Content="Level 2" Canvas.Left="10" Canvas.Top="45" FontSize="20" FontFamily="Miriam" Foreground="#FFFDF4F4"/>
+            <Image Height="75" Canvas.Left="83" Width="63" Source="EnterButton.png" Canvas.Top="10" MouseDown="level2"/>
+        </Canvas>
+        <Label Content="Team Name." HorizontalAlignment="Left" Margin="318,465,0,0" VerticalAlignment="Top" FontSize="35" FontFamily="./resource/#Bohemian typewriter" Foreground="White" RenderTransformOrigin="0.553,0.921"/>
+
+    </Grid>
+</Window>

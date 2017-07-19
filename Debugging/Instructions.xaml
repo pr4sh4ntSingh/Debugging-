@@ -1,0 +1,42 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Debugging.Instructions"
+       Title="Instructions" Height="768" Width="1366" WindowStyle="None" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <ImageBrush ImageSource="comp.png" Stretch="Fill"/>
+    </Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="132"/>
+
+            <RowDefinition/>
+            <RowDefinition Height="151"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="94"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="90"/>
+        </Grid.ColumnDefinitions>
+        <TextBox  x:Name="Instruction" ScrollViewer.HorizontalScrollBarVisibility="Auto"
+			ScrollViewer.VerticalScrollBarVisibility="Auto" Margin="53,9,59,0" Grid.Row="1" TextWrapping="Wrap" Text="------------------------------Rules----------------------------- &#xA;No of Participants: Maximum 2 &#xA;Levels : 2 Levels&#xA; &#xA;You are allowed to change the lines equals to the error in that question. &#xA;That is if there are 2 errors in question then you can make change in maximum 2 lines.                    &#xA;Only selected teams will be allowed to participate in level 2. ----------------------------Level 1-----------------------------&#xA;No of questions: 20  &#xA; &#xA;Q.No 1 to 10 =&gt; 1 error (60 seconds time) &#xA;Q.No 11 to 15 =&gt; 2 errors (90 seconds time) &#xA;Q.No 16 to 20 =&gt; 4 errors (150 seconds time ) &#xA;&#xA;Note that there are only one error in one line. &#xA;50 marks for correction of each error. &#xA;Thus total marks of questions vary from 50 to 200. &#xA; &#xA;______________________________________________________________&#xA;---------------------Level 2--------------------- &#xA;No of questions: 20  &#xA; &#xA;Q.No 1 to 10 =&gt; 1 error (60 seconds time) &#xA;Q.No 11 to 15 =&gt; 2 errors (90 seconds time) &#xA;Q.No 16 to 20 =&gt; 4 errors (150 seconds time ) &#xA; &#xA;Note that there are only one error in one line. &#xA;50 marks for correction of each error. &#xA;Thus total marks of questions vary from 50 to 200. &#xA;_____________________________________________________&#xA;-----------------------credits------------------------- &#xA; &#xA;Two types of credit: credit I, credit II &#xA; &#xA;credit I= increases time by 25 % of total time of that question&#xA;credit II= shows a hint to solve that question &#xA; &#xA; &#xA;credit Reward: &#xA;   &#xA;credit I- will be rewarded if you solve problem in less than 3/4 time of total time. &#xA;credit II- will be rewarded if you solve problem in less than 1/2 time of total time.   &#xA;________________________________________________________________________________________" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" FontSize="24" FontFamily="Courier New" Grid.Column="1" Height="463" Foreground="#FFF9F0F0" FontWeight="Bold" Focusable="False" BorderThickness="0">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.843"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.985"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Canvas Grid.Column="1" HorizontalAlignment="Left" Height="48" Margin="994,93,0,0" Grid.Row="2" VerticalAlignment="Top" Width="225" Grid.ColumnSpan="2" MouseDown="Button_Click_1">
+            <Canvas.Background>
+                <ImageBrush ImageSource="enter.gif"/>
+            </Canvas.Background>
+        </Canvas>
+
+    </Grid>
+</Window>

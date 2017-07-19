@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Debugging", "Debugging\Debugging.csproj", "{80FE093F-DAE8-4B74-B40C-54BF3B3635E3}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "DebuggingSetup", "DebuggingSetup\DebuggingSetup.isproj", "{2CB28CF1-6F42-48EB-AD03-5CC24D26964F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80FE093F-DAE8-4B74-B40C-54BF3B3635E3}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{80FE093F-DAE8-4B74-B40C-54BF3B3635E3}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{80FE093F-DAE8-4B74-B40C-54BF3B3635E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FE093F-DAE8-4B74-B40C-54BF3B3635E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80FE093F-DAE8-4B74-B40C-54BF3B3635E3}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FE093F-DAE8-4B74-B40C-54BF3B3635E3}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{80FE093F-DAE8-4B74-B40C-54BF3B3635E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80FE093F-DAE8-4B74-B40C-54BF3B3635E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80FE093F-DAE8-4B74-B40C-54BF3B3635E3}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{80FE093F-DAE8-4B74-B40C-54BF3B3635E3}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{2CB28CF1-6F42-48EB-AD03-5CC24D26964F}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{2CB28CF1-6F42-48EB-AD03-5CC24D26964F}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{2CB28CF1-6F42-48EB-AD03-5CC24D26964F}.Debug|Any CPU.ActiveCfg = DVD-5
+		{2CB28CF1-6F42-48EB-AD03-5CC24D26964F}.Debug|Any CPU.Build.0 = DVD-5
+		{2CB28CF1-6F42-48EB-AD03-5CC24D26964F}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{2CB28CF1-6F42-48EB-AD03-5CC24D26964F}.DVD-5|Any CPU.Build.0 = DVD-5
+		{2CB28CF1-6F42-48EB-AD03-5CC24D26964F}.Release|Any CPU.ActiveCfg = SingleImage
+		{2CB28CF1-6F42-48EB-AD03-5CC24D26964F}.Release|Any CPU.Build.0 = SingleImage
+		{2CB28CF1-6F42-48EB-AD03-5CC24D26964F}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{2CB28CF1-6F42-48EB-AD03-5CC24D26964F}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
